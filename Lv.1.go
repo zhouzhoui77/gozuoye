@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//
 //定义三个全局通道变量
 var chA, chB, chC = make(chan string), make(chan string), make(chan string)
 

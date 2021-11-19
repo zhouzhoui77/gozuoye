@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+//
 //向 intChan放入50000个数
 func putNum(intChan chan int) {
 

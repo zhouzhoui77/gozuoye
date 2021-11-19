@@ -17,7 +17,6 @@ func factorial(n int) {
 }
 
 func main() {
-	//
 	for i := 1; i <= 20; i++ {
 		go factorial(i)
 		receive := <-intchan //定义变量receive接收通道intchan传出的值
